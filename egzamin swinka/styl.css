@@ -1,0 +1,46 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+header, footer{
+    background-color: saddlebrown;
+    color: white;
+    text-align: center;
+    padding: 7px;
+    width: 100%;
+}
+nav{
+    background-color: peru;
+    width: 80%;
+    height: 40px;
+    padding-top: 20px;
+}
+main{
+    background-color: peru;
+    color: white;
+    width: 20%;
+    height: 760px;
+}
+aside{
+    width: 80%;
+    height: 700px;
+    font-size: 120%;
+    overflow: auto;
+}
+a{
+    color: #DDD;
+    padding-left: 90px;
+    font-size: 140%;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+img{
+    float: left;
+    margin: 30px;
+
+}
